@@ -1,0 +1,552 @@
+/**/
+
+body
+{
+
+background-color:skyblue;
+font-family: 'Roboto',sans-serif;
+background: linear-gradient(to top,rgba(0, 0, 0, 0.20)100%,rgba(0, 0, 0, 0.20)100%,);
+background-size: auto;
+background-position: center;
+}
+.signup-box
+{
+width: 360px;
+height: 420px;
+left: 60%;
+right: 60%;
+margin-left: -25%;
+position: absolute;
+margin-top: 10%;
+border-radius: 3px;
+color: white;
+}
+.login-box
+{
+width: 360px;
+height: 350px;
+left: 60%;
+right: 60%;
+margin-left: -25%;
+position: absolute;
+background-image: url(18.jpg);
+margin-top: 10%;
+border-radius: 3px;
+color: white;
+}
+
+.Donation-box
+{
+width: 350px;
+height: 520px;
+left: 60%;
+right: 60%;
+margin-left: -25%;
+position: absolute;
+margin-top: 6%;
+border-radius: 3px;
+color: white;
+}
+
+
+h1
+{
+	text-align: center;
+	padding-top: px;
+}
+form
+{
+margin-top: 20px;
+width: 300px;
+margin-left: 20px;
+
+}
+form label
+{
+display:ruby-base-container;
+margin-top: 18px;
+font-size: 18px;
+}
+form input
+{
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border: 1px solid grey;
+	border-radius: 6px;
+outline: none;
+}
+input [type="submit"]
+{
+	width: 120px;
+	height: 20px;
+	margin-top: 15px;
+	border:darkred;
+	background-color:green;
+	color: green;
+	font-size: 23px;
+
+}
+p
+{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 15px;
+}
+.para-2 
+{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	margin-top: -10px;
+
+}
+.para-2 a
+{
+color:skyblue ;
+}
+.log
+{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	margin-top: 15px;
+}
+.log a
+{
+	color: skyblue;
+}
+
+
+
+
+ 
+                                      /*Home Page CSS*/
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+
+	width: 100%;
+	background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%,);
+	background-position: center;
+	background-size:auto;
+	height: 109vh;
+}
+.navbar
+{
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+}
+.icon
+{
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+.logo
+{
+	color: red;
+	font-size: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+}
+.menu
+{
+	transition-duration: 5s;
+	transition-property: inherit;
+	width: 500px;
+	float: left;
+	height: 80px;
+
+}
+ul
+{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+ul li
+{
+list-style: none;
+margin-left: 62px;
+margin-top: 27px;
+font-size: 14px;
+}
+
+ul li a
+{
+text-decoration: none;
+color: orange;
+font-family: Arial;
+font-weight: bold;
+transition: 0.4 ease-in-out;
+
+}
+ul li a:hover
+{
+
+color:red ;
+}
+.search
+{
+	width: 330px;
+	float: left;
+	margin-left: 900px;
+	margin-top: -70px;
+text-align: center;
+}
+.srch
+{
+font-family: 'Times New Roman';
+width: 200px;
+height: 40px;
+background: transparent;
+border: 1px solid orange;
+margin-top: 13px;
+color: white;
+border-right: none;
+font-size: 16px;
+float: left;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+.btn
+{
+	width: 100px;
+	height: 40px;
+	background: orange;
+	border: 2px solid orange;
+	margin-top: 13px;
+	color: white;
+	font-size: 15px;
+	border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.btn:focus
+{
+	outline: none;
+}
+.srch:focus
+{
+	outline: none;
+}
+.content
+{
+	text-align: center;
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+
+}
+.content .par
+{
+color: ghostwhite;
+border: 2px;
+	padding-left: 20px;
+	padding-bottom: 25px;
+	font-family: Arial;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+
+}
+.content h1
+{
+font-family: 'Times New Roman';
+font-size: 50px;
+padding-left: 20px;
+margin-top: 6%;
+letter-spacing: 2px;
+}
+.content .cn
+{ 
+	text-align: center;
+	width: 160px;
+	height: 40px;
+	background: orange;
+	border: none;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .4s ease;
+	color: white;
+
+}
+.content .cn .a
+{
+
+    text-align: center;
+    border: 2px;
+	text-decoration: none;
+	color: #000;
+	transition: .3s ease;
+
+}
+.cn:hover
+{
+	text-align: center;
+background-color: white;
+}
+.content span
+{
+	color: orange;
+	font-size: 60px;
+}
+.form
+{
+	width: 250px;
+	height: 380px;
+	background: linear-gradient(to top,rgba(0, 0, 0, 0.40)50%,rgba(0, 0, 0, 0.40)50%);
+	position: absolute;
+	top: -20px;
+	left: 870px;
+	border-radius: 10px;
+	padding: 25px;
+}
+.form h2
+{
+	width: 220px;
+	font-family: sans-serif;
+	text-align: center;
+	color: orange;
+	font-size: 22px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 10PX;
+}
+.form input
+{
+	width: 240px;
+	height: 35px;
+	background: transparent;
+	border-bottom: 1px solid orange;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus
+{
+	
+	outline: none;
+}
+::placeholder
+{
+color: white;
+font-family: Arial;
+}
+.btnn
+{
+
+	width: 240px;
+	height: 40px;
+	background: orange;
+	border: none;
+	margin-top: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+}
+.btnn:hover
+{
+	background: white;
+	color: orange;
+}
+.btnn a
+{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+}
+
+.form .link
+{
+font-family: Arial;
+font-size: 17px;
+padding-top: 20px;
+text-align: center;	
+}
+
+.form .link a{
+	text-decoration: none;
+	color: orange;
+	text-align: center;
+}
+.liw
+{
+	color: orange;
+	background-color: white;
+	font-family: sans-serif;
+	padding: 10px;
+padding-top: 15px;
+padding-bottom: 10px;
+text-align: center;
+}
+
+
+
+
+
+                                              /*Contact CSS*/
+
+
+
+
+
+
+*{
+	margin: 10;
+	padding: 20;
+}
+body
+{
+	background-image: url(18.jpg);
+font-size: 18px;
+font-family: sans-serif;
+font: bold;
+}
+.container
+{
+width: 80%;
+margin: 60px auto;
+left: 40%;
+right: 40%;
+margin-left: -30%;
+position: absolute;
+margin-top: 6%;
+}
+.Contact-box
+{
+	background: white;
+	display: flex;
+}
+.Contact-left
+{
+flex-basis: 60%;
+padding: 40px 60px;
+}
+.Contact-right
+{
+flex-basis: 30%;
+padding: 60px ;
+background: white;
+color: black;
+}
+
+.container p
+{
+	margin-bottom: 40px
+}
+
+.input-row
+{
+	margin-bottom: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.input-row .input-group
+{
+	flex-basis: 45%;
+}
+input{
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	outline: none;
+	padding-bottom: 10px;
+}
+textarea
+{
+width: 100%;
+border: 1px solid #ccc;
+outline: none;
+padding: 10px;
+box-sizing: border-box;
+}
+label
+{
+margin-bottom: 0px;
+display: block;
+color: skyblue;
+}
+button
+{
+	text-align: center;
+	background: skyblue;
+	width: 80px;
+	border: none;
+	outline: none;
+	color: rebeccapurple;
+	height: 30px;
+	border-radius: 30px;
+	margin-top: 20px;
+	box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.Contact-left h3
+{
+	color: skyblue;
+	text-align: center;
+	font-weight: 500;
+	background-position: center;
+
+	background-size: 10%;
+	margin-bottom: 0px;
+
+}
+.Contact-right h3
+{
+	font-weight: 500;
+	margin-bottom: 20px;
+
+
+}
+tr td:first-child
+{
+	color: skyblue;
+padding-right: 30px;
+}
+tr td
+{
+	border-spacing: 20px;
+padding-top: 20px;
+}
+h3
+{
+	
+	text-align: center;
+	color: skyblue;
+	text-shadow: rebeccapurple;
+}
+
+									
+
+
+
+									/*About Page*/
+.qn
+{
+	margin-top: 100px;
+	color: white;
+}

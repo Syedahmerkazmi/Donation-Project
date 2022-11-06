@@ -1,0 +1,208 @@
+.menu
+{
+    
+    width: 400px;
+	
+	height: 80px;
+
+}
+ul
+{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+ul li
+{
+list-style: none;
+margin-left: 62px;
+margin-top: 27px;
+font-size: 14px;
+}
+
+ul li a
+{
+text-decoration: none;
+color: orange;
+font-family: Arial;
+font-weight: bold;
+transition: 0.4 ease-in-out;
+
+}
+ul li a:hover
+{
+
+color:red ;
+}
+/* HEADING  */
+.he
+{
+    background-attachment: fixed;
+    display: inline-block;
+    margin-top: 6%;
+    margin-left: 35%;
+    color: white;
+    font-size: xx-large;
+    font-size: 290%;
+   
+    text-shadow: grey 7px 14px;
+}
+  .tx
+  {
+    color: aliceblue;
+    float: right;
+    display: inline-block;
+    margin-top: 21%;
+  }
+  .poverty
+  {
+    
+    float: left;
+    margin-left: 30px;
+    margin-top: 7%;
+    border: 1px solid white;
+    border-radius: 14px 14px ;
+    
+  }
+  .first
+  {
+    margin-left: 6%;
+  }
+  .second
+  {
+    margin-left: 9%;
+  }
+  .third
+  {
+    margin-left: 9%;
+  }
+   
+
+  .p
+  {
+    color:antiquewhite;
+  }
+  .im:hover
+  {
+    transform: scaleX(0.98);
+    box-shadow: lightblue 6px 6px;
+   
+  }
+  .hee
+  {
+    
+    width: 220px;
+    margin-left: 6%;
+   
+    
+  }
+  .mission
+  {
+    margin-left: 7%;
+    margin-top: 20%;
+    width:15%;
+    border:solid grey 1px;
+  }
+  .mission2
+  {
+    width:15%;
+   
+    border:solid grey 1px;
+  }
+  .cont
+  {
+    
+    padding:0%;
+    margin: 0%;
+  }
+  .jp
+  {
+    width:50px;
+    text-align: center;
+    padding: 0px;
+    margin: 0%;
+  }
+  .fa {
+    border-radius: 0.1%;
+    border:inset white 0.1px;
+    padding: 7px;
+    margin-left: 30px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  .fa:hover {
+     background-color: white;
+     transition-duration:  1s;
+     transition-timing-function: ease-in-out;
+      
+      border: solid blue 2px;
+  }
+  
+  .fa-facebook {
+    padding-right: 12px;
+
+   
+    color: blue;
+  }
+  
+  
+  
+  .fa-linkedin {
+
+    padding-right: 12px;
+
+  
+    color: blue;
+  }
+  
+  
+  
+  .fa-instagram {
+    padding-right: 12px;
+    color: blue;
+  }
+  
+  .bt
+  {
+    margin-left: 30px;
+     margin-top: 25px; 
+     background-color: transparent;
+     color: white;
+     border: ridge white 1px;
+     height: 8%;
+     width: 30%;
+  }
+  .bt:hover
+  {
+   color: brown;
+   background-color: white;
+   transition-duration: 1s;
+  
+   transition-timing-function: ease-in-out;
+  
+    
+  }
+  .btt
+  {
+    margin-left: 30px;
+    margin-top: 25px; 
+    background-color: transparent;
+    color: white;
+    border: ridge white 1px;
+    height: 38px;
+    width: 90px;
+  }
+  .btt:hover{
+    color: brown;
+   background-color: white;
+   transition-duration: 1s;
+    
+   transition-timing-function: ease-in-out;
+  }
+  
